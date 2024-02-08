@@ -1,7 +1,7 @@
 node {
     stage('Checkout') {
         // Checkout code from version control system (e.g., Git)
-        git 'https://github.com/varshithoo7/BasicPipeline.git'
+        echo 'Checkout Successful ..........'
     }
     
     stage('Build') {
